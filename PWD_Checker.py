@@ -28,5 +28,7 @@ def main(args):
             print(f"{password} was found {count} times")
         else:
             print("no matches found")
-main(sys.argv[1:])
-print("done")
+    return "done"
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))
+    
